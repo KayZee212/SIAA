@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic');
+
+/* Global Styles */
+* {
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    min-height: auto;
+    background: url('../img/coffeebgfinal.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.outer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo {
+    font-size: 2em;
+    color: #FBF5DF;
+    user-select: none;
+}
+
+.trademark {
+    font-size: 0.8em;
+    vertical-align: super;
+    margin-left: 2px;
+}
+
+/* Buy Now Button Styles */
+.buy-now-button {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    border-radius: 3px;
+    border: none;
+    height: 40px ;
+    width: 230px;
+    text-shadow: #000 2px;
+    
+    font-weight: bold;
+    color: white;
+    border: white solid 2px;
+    background-color: #411530;
+    transition: 0.5s;
+}
+
+.buy-now-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+/* Food Items Styles */
+.food-items {
+    display: flex;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 10px; /* Adjusted gap */
+    overflow: hidden;
+    border-radius: 10px; /* Adjusted border radius */
+    
+}
+
+/* Food Menu Styles */
+.food-menu {
+    display: flex;
+/*     
+
+    <!--BREAKS CODE DO NOT USE -->
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); 
+    gap: 10px; 
+    padding: 10px; 
+    justify-content: center; */
+}
+
+.food-item {
+    border: white 4px solid;
+    padding: 15px; 
+    margin: 5px;
+    text-align: center;
+    background-color: #411530;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); 
+    color: #FBF5DF;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 8px; 
+    width: 250px;
+    transition: 1s;
+}
+
+
+
+.food-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Adjusted border radius */
+    opacity: 100%;
+    
+}
+
+/* Main Content Styles */
+.main-content {
+    display: flex;
+}
+
+.promo
+{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    background-color: #411530;
+    background-image: url(../img/Christmas_Glowing_Lights_PNG_Clipart_Image.png);
+    background-size: contain;
+    border: white 4px solid;
+    border-radius: 4px;
+    width: 100%;
+    color: white;
+    margin: 30px 0px 35px;
+}
+
+.santa
+{
+    width: 80px;
+    height: 80px;
+}
+
+.promodescriptions
+{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.reviewsmain
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    background-image: url("../img/coffeebginvert2.png");
+    background-size: contain;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 20px 0px 100px ;
+    margin: 30px 0px 35px;
+}
+
+.headercomments
+{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+td{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.reviewbutton {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    border-radius: 3px;
+    border: none;
+    height: 40px ;
+    width: 300px;
+    text-shadow: #000 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: white;
+    border: white solid 2px;
+    background-color: #411530;
+    transition: 0.5s;
+}
+
+
+.commentbar
+{
+    width: 600px;
+}
+
+.reviewsheadertext
+{
+    transition: 1s;
+}
+
+/*HOVER ANIMATIONS*/
+.personcomment:hover
+{
+    transition: 1s;
+    scale: 105%;
+}
+
+.promo:hover
+{
+    background-color: black;
+    transition: 1s;
+}
+
+.food-item:hover
+{
+    background-color: #26081b;
+    scale: 105%;
+    transition: 1s;
+}
+
+.buy-now-button:hover
+{
+    background-color: white;
+    color: #26081b;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.reviewsheadertext:hover
+{
+    scale: 105%;
+    transition: 1s;
+}
+
+.reviewbutton:hover
+{
+    background-color: white;
+    color: #26081b;
+    transition: 0.5s;
+    cursor: pointer;
+}

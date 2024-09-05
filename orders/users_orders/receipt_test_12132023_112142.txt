@@ -1,0 +1,18 @@
+Receipt
+
+Username: test
+Contact #: 0921123112
+Name: ramiso Cyril Salgado
+Address 1: Daang
+Address 2: Bakal
+Barangay: Malanday
+Region: Niggas
+Postal: 6969
+Mode of Payment: Gcash
+
+Order Details:
+3x Mocha: 300php
+3x Espresso: 150php
+1x Latte: 80php
+2x Cappucinno: 150php
+Total (9 items): 680php

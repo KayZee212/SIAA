@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic');
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0px;
+            background: url('../img/coffeebginvert.png') no-repeat;
+            background-size: cover; 
+        }
+
+        .receipt {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #ccc;
+            padding: 10px;
+            max-width: 700px; /* Adjust the max-width as needed */
+            margin: 0 auto;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            background: #fee3c5;
+            font-size: 20px;
+            bottom: 0;
+            text-align: left;
+            border-radius: 10px;
+            margin-top: 100px; /* Adjust the margin as needed */
+            padding-left: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #411530;
+            font-weight: 800;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+
+        .confirm-button {
+            background-color: #411530;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px; /* Adjust the margin as needed */
+            text-decoration: none; /* Remove default underline for anchor */
+            display: inline-block; /* Ensure inline-block behavior */
+            text-align: center;
+        }
+
+        .confirm-button:hover {
+            background-color: #954b3f; /* Darker green color on hover */
+        }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Quantity Input</title>
+    <style>
+        /* Styles for the container */
+        .quantity-container {
+            display: flex;
+            align-items: center;
+        }
+
+        /* Styles for the input field */
+        .quantity-input {
+            width: 40px;
+            padding: 5px;
+            text-align: center;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            margin: 0 5px;
+        }
+
+        /* Styles for the plus and minus buttons */
+        .quantity-btn {
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="quantity-container">
+    <button class="quantity-btn" onclick="decrement()">-</button>
+    <input type="text" class="quantity-input" id="quantity" value="1" />
+    <button class="quantity-btn" onclick="increment()">+</button>
+</div>
+
+<script>
+    function increment() {
+        var quantityInput = document.getElementById('quantity');
+        quantityInput.value = parseInt(quantityInput.value, 10) + 1;
+    }
+
+    function decrement() {
+        var quantityInput = document.getElementById('quantity');
+        var newValue = Math.max(1, parseInt(quantityInput.value, 10) - 1);
+        quantityInput.value = newValue;
+    }
+</script>
+
+</body>
+</html>

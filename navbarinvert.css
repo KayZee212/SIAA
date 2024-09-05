@@ -1,0 +1,108 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  width: 1920px;
+  background-color: #411530;
+}
+
+/*for the empty gap underneath the navbar*/
+.filler{
+  height: 75px;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/***                  ***
+***  NAVBAR SECTION  ***
+***                  ***/
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #411530;
+  user-select: none;
+  z-index: 1000;
+}
+
+.navbar-ul{
+  background-color: #fee3c5;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1.5px;
+  padding: 0;
+}
+
+.navbar-ul > img{
+  height: 75px;
+  width: 75px;
+  padding-left: 30px;
+}
+
+.navbar-ul > li{
+  color: #411530;
+  padding: 16px; 
+  font-size: 18px;
+  cursor: pointer;
+  text-wrap: nowrap;
+  font-weight: 500;
+}
+
+i{
+  padding-right: 3px;
+}
+
+a{
+  padding: 5px 0px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #411530;
+  transition: 0.4s ease-out;
+}
+
+a:hover{
+  color: brown;
+}
+
+.navbar-ul > li:nth-child(1){
+ padding-left: 36px;
+}
+.navbar-ul > li:nth-last-of-type(1){
+  margin-left: auto;
+}
+.navbar-ul > li:nth-last-of-type(1){
+  padding-right: 36px;
+}
+
+@media screen and (max-width: 1031px) {
+  .navbar-ul{
+    height: 45px;
+  }
+
+  .navbar-ul li{
+    font-size: 12px;
+  }
+
+  .filler{
+    height: 45px;
+  }
+}

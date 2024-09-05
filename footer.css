@@ -1,0 +1,28 @@
+/***                  ***
+***  FOOTER SECTION  ***
+***                  ***/ 
+.footer-container{
+  list-style: none;
+  background-color: #411530;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  letter-spacing: 1.8px;
+  color: #fee3c5;
+}
+
+.footer-container > div{
+  background-color: #411530;
+  width: 400px;
+  padding-left: 40px;
+  line-height: 1.4;
+  text-align: left;
+}
+
+@media screen and (max-width: 800px) {
+  .footer-container{
+    font-size: 12px;
+  }
+}

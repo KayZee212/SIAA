@@ -1,0 +1,15 @@
+Receipt
+
+Username: Seishxro
+Contact #: 
+Name:   
+Address 1: 
+Address 2: 
+Barangay: 
+Region: 
+Postal: 0
+Mode of Payment: Cash on Delivery
+
+Order Details:
+4x Mocha: 400php
+Total (4 items): 400php

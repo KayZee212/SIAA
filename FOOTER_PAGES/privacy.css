@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic');
+
+html{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    color: aliceblue;
+    width: 1920px;;
+    font-family: 'Poppins', sans-serif;
+}
+
+.aboutusmain
+{
+    text-align: center;
+    font-size: 45px;
+    background-image: url(../img/coffeebgfinalless.png);
+    background-size: contain;
+    color: #411530;
+    /* #Fec5c5 */
+
+    padding: 100px;
+    transition: 1s;
+}
+
+.aboutus
+{
+    text-align: left;
+    background-image: url(../img/coffeebgfinalless.png);
+    background-size: cover;
+    color: #411530;
+    font-weight: 450;
+    /* #Fec5c5 */
+    padding: 150px 100px;
+}
+
+.aboutusinvert
+{
+    text-align: left;
+    background-color: #411530;
+    color: #fee3c5;
+    padding: 100px;
+}
+
+.logotop
+{
+    width: 400px;
+    transition: 1s;
+}
+
+.descriptionscontainer
+{
+    margin: 50px auto; 
+    letter-spacing: .15em; 
+}
+
+@media screen and (max-width: 1125px){
+    .map{
+        height: 250px;
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 825px){
+    .map{
+        height: 200px;
+        width: 300px;
+    }
+}
+

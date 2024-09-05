@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic');
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0px;
+        background: url('../img/coffeebginvert.png') no-repeat;
+        background-size: cover;
+    }
+
+    .checkout {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ccc;
+        padding: 10px;
+        max-width: 700px; /* Adjust the max-width as needed */
+        margin: 0 auto;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        background: #fee3c5;
+        font-size: 20px;
+        bottom: 0;
+        text-align: left;
+        border-radius: 10px;
+        margin-top: 100px; /* Adjust the margin as needed */
+    }
+
+    h2 {
+        text-align: center;
+        color: #411530;
+        font-weight: 800;
+    }
+
+    p {
+        margin: 5px 0;
+    }
+
+    .confirm-button {
+        background-color: #411530;
+        color: white;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px; /* Adjust the margin as needed */
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .confirm-button:hover {
+        background-color: #954b3f; /* Darker green color on hover */
+    }
+
+    /* Add this to your existing style section or in a separate CSS file */
+    select {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc; 
+        border-radius: 5px;
+        box-sizing: border-box;
+        font-size: 16px;
+        color: white;
+        background-color: #411530;
+    }
+
+    /* Style for select box when focused */
+    select:focus {
+        outline: none;
+        border-color: #954b3f; /* Darker color on focus */
+        box-shadow: 0 0 5px rgba(148, 75, 63, 0.5);
+    }
+
+    /* Style for select box options */
+    select option {
+        background-color: #411530;
+        color: white;
+    }
+
+    .Mode-Of-Payment {
+        font-family: 'Poppins', sans-serif;
+    }
